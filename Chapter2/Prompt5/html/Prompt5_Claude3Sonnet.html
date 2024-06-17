@@ -1,0 +1,103 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Mar  6 17:12:16 2024
+
+@author: Vincent Hall and Claude 3 Sonet by Anthropic.
+
+"""
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>
+        .calculator {
+            width: 200px;
+            margin: 0 auto;
+            text-align: center;
+            background-color: #f2f2f2;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .display {
+            width: 100%;
+            height: 40px;
+            font-size: 24px;
+            text-align: right;
+            padding: 5px;
+            box-sizing: border-box;
+        }
+
+        .buttons {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-gap: 5px;
+            margin-top: 10px;
+        }
+
+        button {
+            width: 100%;
+            height: 40px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" class="display" id="display" disabled>
+        <div class="buttons">
+            <button onclick="clearDisplay()">C</button>
+            <button onclick="backspace()">&#8676;</button>
+            <button onclick="appendValue('/')">/</button>
+            <button onclick="appendValue('*')">*</button>
+            <button onclick="appendValue('7')">7</button>
+            <button onclick="appendValue('8')">8</button>
+            <button onclick="appendValue('9')">9</button>
+            <button onclick="appendValue('-')">-</button>
+            <button onclick="appendValue('4')">4</button>
+            <button onclick="appendValue('5')">5</button>
+            <button onclick="appendValue('6')">6</button>
+            <button onclick="appendValue('+')">+</button>
+            <button onclick="appendValue('1')">1</button>
+            <button onclick="appendValue('2')">2</button>
+            <button onclick="appendValue('3')">3</button>
+            <button onclick="calculate()">=</button>
+            <button onclick="appendValue('0')">0</button>
+            <button onclick="appendValue('.')">.</button>
+        </div>
+    </div>
+
+    <script>
+        let displayValue = "";
+
+        function appendValue(value) {
+            displayValue += value;
+            document.getElementById("display").value = displayValue;
+        }
+
+        function clearDisplay() {
+            displayValue = "";
+            document.getElementById("display").value = "";
+        }
+
+        function backspace() {
+            displayValue = displayValue.slice(0, -1);
+            document.getElementById("display").value = displayValue;
+        }
+
+        function calculate() {
+            try {
+                displayValue = eval(displayValue);
+                document.getElementById("display").value = displayValue;
+            } catch (error) {
+                alert("Invalid expression");
+                clearDisplay();
+            }
+        }
+    </script>
+</body>
+</html>
