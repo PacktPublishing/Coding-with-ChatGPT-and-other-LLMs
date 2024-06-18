@@ -1,0 +1,7 @@
+#Prompt 1: Please give me an example of python code to make a button for a webpage where if you click the button it says "hello". 
+# Written by Vincent Hall of Build Intellect Ltd. and ABT NEWS Ltd. 12 Feb 2024.
+ 
+
+#This is html, so should be put into a webpage on a website editor or can be tested and played with in an HTML interpreter, like https://htmledit.squarefree.com/ , https://onecompiler.com/html #or https://www.w3schools.com/tryit/ . 
+
+#Code 1: 
