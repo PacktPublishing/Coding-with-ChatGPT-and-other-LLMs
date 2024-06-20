@@ -188,7 +188,7 @@ pdfreader==0.1.12
 pep8==1.7.1
 pexpect @ file:///tmp/build/80754af9/pexpect_1605563209008/work
 pickleshare @ file:///tmp/build/80754af9/pickleshare_1606932040724/work
-Pillow==9.4.0
+Pillow==10.3.0
 pkginfo @ file:///C:/b/abs_d18srtr68x/croot/pkginfo_1679431192239/work
 platformdirs @ file:///C:/b/abs_73cc5cz_1u/croots/recipe/platformdirs_1662711386458/work
 plotly @ file:///C:/ci/plotly_1658160673416/work
