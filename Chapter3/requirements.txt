@@ -212,7 +212,7 @@ pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
 pycryptodome==3.20.0
 pyct @ file:///C:/b/abs_92z17k7ig2/croot/pyct_1675450330889/work
 pycurl==7.45.1
-pydantic==1.10.9
+pydantic==1.10.13
 PyDispatcher==2.0.5
 pydocstyle @ file:///C:/b/abs_6dz687_5i3/croot/pydocstyle_1675221688656/work
 pyerfa @ file:///C:/ci_310/pyerfa_1642088497201/work
