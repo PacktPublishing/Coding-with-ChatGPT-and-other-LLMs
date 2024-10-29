@@ -17,3 +17,6 @@ DCT or Discrete Cosine Transform code is refactored here.
 This chapter has data compression software and crypto price code.
 
 ## Chapter 10
+
+Contains 2 config files: JavaScript and XML.
+Code with just 2-3 lines is not in this repository (2024 Oct 29).
