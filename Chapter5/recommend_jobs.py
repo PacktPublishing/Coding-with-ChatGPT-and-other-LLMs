@@ -56,3 +56,5 @@ if union == 0:
 return 0
 else:
 return intersection / union
+
+""" Always be careful when using code from AIs."""
