@@ -12,3 +12,8 @@ Prompt 5 has 2 versions.
 
 Chapter 3 has additional code for the refactoring section.
 DCT or Discrete Cosine Transform code is refactored here.
+
+## Chapter 4 
+This chapter has data compression software and crypto price code.
+
+## Chapter 10
