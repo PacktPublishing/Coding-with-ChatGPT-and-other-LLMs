@@ -24,3 +24,5 @@ The PMD plugin is a static code analysis tool that helps identify potential bugs
     </configuration> 
 
 </plugin> 
+
+  /*Always use code with caution, as the LLMs say.*/
