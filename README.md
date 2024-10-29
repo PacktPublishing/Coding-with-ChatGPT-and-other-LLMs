@@ -16,6 +16,10 @@ DCT or Discrete Cosine Transform code is refactored here.
 ## Chapter 4 
 This chapter has data compression software and crypto price code.
 
+## Chapter 5
+Chapter 5 has one piece of code to display how LLMs can help you avoid biased code.
+This is a job recommender.
+
 ## Chapter 10
 
 Contains 2 config files: JavaScript and XML.
